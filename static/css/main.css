@@ -1,0 +1,96 @@
+:root {
+  --bg-dark-alt: #303438;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bs-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bs-info);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bs-primary);
+}
+
+/* Editing ID Tags */
+
+#topMainNav {
+  background: var(--bg-dark-alt);
+  border-bottom: 1px solid white;
+}
+
+@media (min-width: 992px) {
+  #home {
+    min-height: 100vh;
+  }
+}
+
+/* Editing Bootstrap Classes and Elements */
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+nav,
+h1,
+h2 {
+  font-family: "Urbanist", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Edu SA Beginner", "Urbanist", sans-serif;
+  font-weight: bold;
+  font-size: calc(var(--bs-navbar-brand-font-size) + 0.25rem);
+}
+
+.display-1 {
+  font-family: "Urbanist", sans-serif;
+}
+
+.display-6 {
+  font-family: "Edu SA Beginner", "Urbanist", sans-serif;
+}
+
+.carousel-caption h5 {
+  font-weight: bold;
+}
+
+.row .col {
+  padding-bottom: 1.5rem;
+}
+
+@media (min-width: 1200px) {
+  .row .col {
+    padding-bottom: 0rem;
+  }
+}
+
+.card-body {
+  background: var(--bg-dark-alt);
+}
+
+/* Editing Custom Classes */
+
+.font-urbanist {
+  font-family: "Urbanist", sans-serif;
+}
+
+.social-link {
+  width: fit-content;
+  padding-left: 0.5rem;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .map {
+    height: 500px !important;
+  }
+}
