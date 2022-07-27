@@ -1,0 +1,19 @@
+{
+  "name": "wad-portfolio",
+  "version": "1.0.0",
+  "description": "Assignemt 3 for Web Application Development.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sk3p7ic/wad-ass-3.git"
+  },
+  "author": "Joshua Ibrom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sk3p7ic/wad-ass-3/issues"
+  },
+  "homepage": "https://github.com/sk3p7ic/wad-ass-3#readme"
+}
