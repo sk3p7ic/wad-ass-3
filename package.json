@@ -18,6 +18,7 @@
   "homepage": "https://github.com/sk3p7ic/wad-ass-3#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "mongoose": "^6.5.0",
     "nodemon": "^2.0.19"
