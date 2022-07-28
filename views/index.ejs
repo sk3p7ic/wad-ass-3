@@ -33,61 +33,7 @@
     <title>Joshua Ibrom</title>
   </head>
   <body class="bg-dark text-light">
-    <!-- Navbar -->
-    <nav id="topMainNav" class="fixed-top navbar navbar-dark navbar-expand-lg">
-      <div class="container-lg">
-        <a class="navbar-brand" href="#home">Joshua Ibrom</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#mainNavbar"
-          aria-controls="mainNavbar"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mainNavbar">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="mainNavDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                >My Sites</a
-              >
-              <ul class="dropdown-menu" aria-labelledby="mainNavDropdown">
-                <li>
-                  <a class="dropdown-item" href="https://joshuaibrom.com"
-                    >joshuaibrom.com</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="https://sk3p7ic.tech"
-                    >sk3p7ic.tech</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
+    <%- include('./components/navbar.ejs') %>
     <div
       data-bs-spy="scroll"
       data-bs-target="#topMainNav"
@@ -610,10 +556,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Footer -->
-    <footer class="py-1 border-top border-secondary text-center">
-      Joshua Ibrom (sk3p7ic), 2022
-    </footer>
+    <%- include('./components/footer.ejs') %>
   </body>
 </html>
