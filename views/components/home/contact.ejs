@@ -78,7 +78,11 @@
           ></textarea>
         </div>
         <!-- Submit -->
+        <% if (!formSubmitted) { %>
         <button type="submit" class="btn btn-info">Submit.</button>
+        <% } else { %>
+        <h2>Thank you for your submission.</h2>
+        <% } %>
       </form>
     </div>
     <!-- Social Links -->
