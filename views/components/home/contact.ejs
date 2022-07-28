@@ -7,7 +7,11 @@
     <div class="flex-grow-1 p-5 bg-secondary rounded-2">
       <!-- Please note that there's no functionality associated with this form. -->
       <h2>Reach out to me!</h2>
-      <form class="d-flex flex-column">
+      <form
+        class="d-flex flex-column"
+        action="/submitContactResponse"
+        method="post"
+      >
         <!-- First Name -->
         <div class="form-floating mb-4">
           <input
