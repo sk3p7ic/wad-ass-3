@@ -1,0 +1,121 @@
+<!-- Home -->
+<div id="home" class="bg-dark bg-gradient py-5">
+  <div class="py-5 d-flex flex-column align-items-center">
+    <img
+      src="img/profile.png"
+      alt="Profile"
+      class="img-thumbnail rounded-circle h-auto"
+      style="width: 200px"
+    />
+    <h1 class="display-1 text-center"><strong>Joshua Ibrom</strong></h1>
+    <h1 class="display-6 text-center">programmer. student. coffee addict.</h1>
+  </div>
+  <!-- Carousel to display project screenshots -->
+  <div class="container-xl">
+    <div
+      id="projectScreenshotCarousel"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <!-- Indicators at the bottom of the carousel -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#projectScreenshotCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#projectScreenshotCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#projectScreenshotCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <!-- Content within the carousel -->
+      <div class="carousel-inner">
+        <!-- joshuaibrom.com screenshot -->
+        <div class="carousel-item active">
+          <img
+            src="img/projects/joshuaibrom.png"
+            alt="Project Screenshot"
+            class="img-fluid"
+          />
+          <div
+            class="carousel-caption bg-dark rounded"
+            style="--bs-bg-opacity: 0.95"
+          >
+            <h5>joshuaibrom.com</h5>
+            <p class="d-none d-md-block">
+              My main personal website, built with React, TypeScript, and
+              Tailwind CSS.
+            </p>
+          </div>
+        </div>
+        <!-- sk3p7ic.tech screenshot -->
+        <div class="carousel-item">
+          <img
+            src="img/projects/sk3p7ic.png"
+            alt="Project Screenshot"
+            class="img-fluid"
+          />
+          <div
+            class="carousel-caption bg-dark rounded"
+            style="--bs-bg-opacity: 0.95"
+          >
+            <h5>sk3p7ic.tech</h5>
+            <p class="d-none d-md-block">
+              My other website, built with React, JavaScript, and Tailwind CSS
+              and neubrutalist-themed.
+            </p>
+          </div>
+        </div>
+        <!-- sorting.sk3p7ic.tech screenshot -->
+        <div class="carousel-item">
+          <img
+            src="img/projects/sorting.png"
+            alt="Project Screenshot"
+            class="img-fluid"
+          />
+          <div
+            class="carousel-caption bg-dark rounded"
+            style="--bs-bg-opacity: 0.95"
+          >
+            <h5>sorting visualizer.</h5>
+            <p class="d-none d-md-block">
+              An Angular webapp that allows a user to view the operation of
+              several popular sorting algorithms.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Buttons for arrows to control carousel -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#projectScreenshotCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#projectScreenshotCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
