@@ -5,7 +5,10 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const { ContactModel } = require("./util/db/contactModel");
 
-const port = 5000;
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
 
 const app = express();
 app.set("view engine", "ejs");
